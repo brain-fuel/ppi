@@ -1,0 +1,14 @@
+= PPI: Preconditions, Postconditions, and Invariants
+:toc:
+
+== Current
+
+// What exists and works today.
+
+== Roadmapped
+
+// Planned work and commitments.
+
+== Aspirational
+
+// Possibilities and longer-term ambitions.
