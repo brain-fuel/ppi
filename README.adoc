@@ -2,32 +2,41 @@
 :toc:
 
 Organized by domain across Ironframe, LawSpec, LawTwin, Canon, the GoForge site,
-the LawSpec site, Rice's Tax, and PPI. A domain can span multiple projects.
+the LawSpec site, Rice's Tax, and xref:GLOSSARY.adoc#ppi[PPI]. A
+xref:GLOSSARY.adoc#domain[domain] can span multiple projects.
 
-== GUI
+See the xref:GLOSSARY.adoc[glossary] for shared terminology and related terms.
+To link a word to its definition, use:
 
-=== Current
+[source,asciidoc]
+----
+xref:GLOSSARY.adoc#precondition[precondition]
+----
+
+== xref:GLOSSARY.adoc#gui[GUI]
+
+=== xref:GLOSSARY.adoc#current[Current]
 
 // What exists and works today.
 
-=== Roadmapped
+=== xref:GLOSSARY.adoc#roadmapped[Roadmapped]
 
 // Planned work and commitments.
 
-=== Aspirational
+=== xref:GLOSSARY.adoc#aspirational[Aspirational]
 
 // Possibilities and longer-term ambitions.
 
-== TUI
+== xref:GLOSSARY.adoc#tui[TUI]
 
-=== Current
+=== xref:GLOSSARY.adoc#current[Current]
 
 // What exists and works today.
 
-=== Roadmapped
+=== xref:GLOSSARY.adoc#roadmapped[Roadmapped]
 
 // Planned work and commitments.
 
-=== Aspirational
+=== xref:GLOSSARY.adoc#aspirational[Aspirational]
 
 // Possibilities and longer-term ambitions.

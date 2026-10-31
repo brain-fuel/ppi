@@ -1,0 +1,88 @@
+= PPI Glossary
+:toc:
+
+Shared vocabulary for the domains and projects tracked in
+xref:README.adoc[PPI]. These definitions describe terms, not implementation
+status. Keep each term's explicit anchor stable so existing links keep working.
+
+// Add terms alphabetically. Link related terms rather than repeating definitions.
+// Within this file: <<precondition,precondition>>
+// From another file: xref:GLOSSARY.adoc#precondition[precondition]
+
+[[aspirational]]
+== Aspirational
+
+A desired capability or direction that has not yet become a
+<<roadmapped,roadmap commitment>>. It may need exploration before its scope or
+feasibility is understood.
+
+[[current]]
+== Current
+
+A capability that exists today. Descriptions should state its actual scope
+and limitations; <<roadmapped,planned work>> is recorded separately.
+
+[[domain]]
+== Domain
+
+An area of capability used to organize this inventory. A domain can span
+multiple projects; <<gui,GUI>> and <<tui,TUI>> are the initial domains.
+
+[[gui]]
+== GUI (graphical user interface)
+
+A <<user-interface,user interface>> presented through graphical elements such
+as windows, buttons, menus, and visual editors. Compare <<tui,TUI>>.
+
+[[invariant]]
+== Invariant
+
+A property required to hold across a specified set of valid states or at
+defined boundaries. Its scope must say when it must hold. A
+<<precondition,precondition>> applies before an operation, while a
+<<postcondition,postcondition>> applies after it.
+
+[[postcondition]]
+== Postcondition
+
+A condition an operation promises to establish when it completes, under its
+stated <<precondition,preconditions>>. It describes the resulting state,
+returned value, or both. See also <<invariant,invariant>>.
+
+[[ppi]]
+== PPI
+
+Preconditions, postconditions, and invariants: the name of this repository.
+It tracks <<current,current>>, <<roadmapped,roadmapped>>, and
+<<aspirational,aspirational>> capabilities by <<domain,domain>> across the
+shared projects. See <<precondition,precondition>>,
+<<postcondition,postcondition>>, and <<invariant,invariant>>.
+
+[[precondition]]
+== Precondition
+
+A condition required before an operation is invoked. An operation's
+<<postcondition,postconditions>> are promised under its stated preconditions;
+behavior outside them must be specified separately if it matters.
+See also <<invariant,invariant>>.
+
+[[roadmapped]]
+== Roadmapped
+
+Work planned for future implementation. Recording it here does not establish
+that it is <<current,available today>>. Unlike an <<aspirational,aspiration>>,
+it has been selected for the plan; timing and scope should be stated explicitly
+when agreed.
+
+[[tui]]
+== TUI (text user interface)
+
+A <<user-interface,user interface>> presented in a terminal using text and
+character-based controls. Compare <<gui,GUI>>.
+
+[[user-interface]]
+== User interface
+
+The means through which a person interacts with a system, including how they
+provide input and receive feedback. <<gui,Graphical>> and <<tui,terminal text>>
+interfaces are two forms.
