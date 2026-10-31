@@ -1,14 +1,33 @@
 = PPI: Preconditions, Postconditions, and Invariants
 :toc:
 
-== Current
+Organized by domain across Ironframe, LawSpec, LawTwin, Canon, the GoForge site,
+the LawSpec site, Rice's Tax, and PPI. A domain can span multiple projects.
+
+== GUI
+
+=== Current
 
 // What exists and works today.
 
-== Roadmapped
+=== Roadmapped
 
 // Planned work and commitments.
 
-== Aspirational
+=== Aspirational
+
+// Possibilities and longer-term ambitions.
+
+== TUI
+
+=== Current
+
+// What exists and works today.
+
+=== Roadmapped
+
+// Planned work and commitments.
+
+=== Aspirational
 
 // Possibilities and longer-term ambitions.
